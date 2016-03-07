@@ -1,7 +1,7 @@
-"https://github.com/tpope/vim-pathogen
+" https://github.com/tpope/vim-pathogen
 execute pathogen#infect()
 
-"http://ethanschoonover.com/solarized
+" http://ethanschoonover.com/solarized
 syntax enable
 set background=dark
 colorscheme solarized
