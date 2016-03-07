@@ -1,0 +1,12 @@
+[user]
+	name = Brian Maher
+	email = briancmaher@gmail.com
+[alias]
+	st = status
+	co = checkout
+[alis]
+	co = checkout
+[pull]
+	rebase = true
+[push]
+	default = simple
