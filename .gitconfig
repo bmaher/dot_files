@@ -9,3 +9,5 @@
 	rebase = true
 [push]
 	default = simple
+[core]
+	editor = vim
