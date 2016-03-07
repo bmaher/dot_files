@@ -2,6 +2,7 @@
 	name = Brian Maher
 	email = briancmaher@gmail.com
 [alias]
+	l  = log --oneline
 	st = status
 	co = checkout
 [pull]
