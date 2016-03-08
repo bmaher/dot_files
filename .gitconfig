@@ -10,4 +10,5 @@
 [push]
 	default = simple
 [core]
+	autocrlf = input
 	editor = vim
