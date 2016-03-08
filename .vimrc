@@ -5,3 +5,8 @@ execute pathogen#infect()
 syntax enable
 set background=dark
 colorscheme solarized
+
+" Enable mouse scrolling
+set mouse=a
+map <ScrollWheelUp> <C-Y>
+map <ScrollWheelDown> <C-E>
