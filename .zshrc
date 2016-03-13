@@ -1,2 +1,2 @@
 # http://ohmyz.sh/
-plugins=(git textmate web-search)
+plugins=(git textmate web-search docker)
