@@ -2,9 +2,11 @@
 	name = Brian Maher
 	email = briancmaher@gmail.com
 [alias]
-	l  = log --oneline
-	st = status
-	co = checkout
+        l  = log --oneline
+        st = status
+        co = checkout
+        gerrit = push origin HEAD:refs/for/master
+        draft = push origin HEAD:refs/drafts/master
 [pull]
 	rebase = true
 [push]
@@ -12,3 +14,5 @@
 [core]
 	autocrlf = input
 	editor = vim
+[color]
+	ui = auto
