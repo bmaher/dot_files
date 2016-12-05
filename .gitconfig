@@ -1,6 +1,6 @@
 [user]
 	name = Brian Maher
-	email = briancmaher@gmail.com
+	email = dev@bmaher.com
 [alias]
         l  = log --oneline
         st = status
