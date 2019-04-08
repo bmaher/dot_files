@@ -2,7 +2,7 @@
 	name = Brian Maher
 	email = dev@bmaher.com
 [alias]
-        l  = log --oneline
+        l  = log --oneline --graph
         st = status
         co = checkout
         gerrit = push origin HEAD:refs/for/master
@@ -16,3 +16,5 @@
 	editor = vim
 [color]
 	ui = auto
+[pager]
+	branch = false
