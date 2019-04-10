@@ -1,29 +1,38 @@
+# ZSH
 plugins=()
 
-source $ZSH/oh-my-zsh.sh
-
+# Terminal
 TERM="xterm-256color"
-
-autoload -U promptinit; promptinit
-prompt pure
-
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 
+# Pure
+autoload -U promptinit; promptinit
+prompt pure
+
+# Golang
 export GOPATH="/Users/bmaher/go"
 export GOBIN="${GOPATH}/bin"
 export PATH="${PATH}:${GOBIN}"
 
+# PyEnv
 if command -v pyenv 1>/dev/null 2>&1; then
   eval "$(pyenv init -)"
 fi
 
-export PATH="$PATH:$HOME/.rvm/bin"
-
+# VIM
 if [[ -n $SSH_CONNECTION ]]; then
   export EDITOR='vim'
 else
   export EDITOR='mvim'
 fi
 
+# SSH
 export SSH_KEY_PATH="~/.ssh/id_rsa"
+
+# Oh-My-ZSH
+export ZSH=/Users/bmaher/.oh-my-zsh
+source $ZSH/oh-my-zsh.sh
+
+# RVM
+export PATH="$PATH:$HOME/.rvm/bin"
