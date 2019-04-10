@@ -1,6 +1,10 @@
 # ZSH
 plugins=()
 
+# Oh-My-ZSH
+export ZSH=/Users/bmaher/.oh-my-zsh
+source $ZSH/oh-my-zsh.sh
+
 # Terminal
 TERM="xterm-256color"
 export LC_ALL=en_US.UTF-8
@@ -29,10 +33,6 @@ fi
 
 # SSH
 export SSH_KEY_PATH="~/.ssh/id_rsa"
-
-# Oh-My-ZSH
-export ZSH=/Users/bmaher/.oh-my-zsh
-source $ZSH/oh-my-zsh.sh
 
 # RVM
 export PATH="$PATH:$HOME/.rvm/bin"
